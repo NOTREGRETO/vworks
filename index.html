@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-WORKS Facility Management | Excellence in Operation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <img src="images/icons/logo-official.jpeg" alt="V-WORKS Logo" style="height: 50px; width: auto; display: block; filter: invert(1) hue-rotate(180deg); mix-blend-mode: multiply;">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1. CINEMATIC SLIDER HERO SECTION -->
+    <section class="hero-slider" id="home">
+        <div class="slider-container">
+            <!-- Slide 1: Housekeeping -->
+            <div class="slide active" style="background-image: url('images/services/housekeeping.png');"></div>
+            <!-- Slide 2: Security -->
+            <div class="slide" style="background-image: url('images/services/security.png');"></div>
+            <!-- Slide 3: Maintenance -->
+            <div class="slide" style="background-image: url('images/services/maintenance.png');"></div>
+            <!-- Slide 4: Landscaping -->
+            <div class="slide" style="background-image: url('images/services/landscaping.png');"></div>
+            <!-- Slide 5: Facility -->
+            <div class="slide" style="background-image: url('images/hero/hero-bg.png');"></div>
+        </div>
+
+        <div class="slider-overlay"></div>
+
+        <div class="container">
+            <div class="hero-slider-content">
+                <span class="service-tag reveal-fade">Reliable. Professional. Efficient.</span>
+                <h1 class="reveal-up">Complete Facility <br><span class="text-accent">Management</span> Solutions</h1>
+                <p class="reveal-up" style="transition-delay: 0.2s;">From cleaning to security, we manage everything professionally so you can focus on your core business.</p>
+                
+                <div class="hero-btns reveal-up" style="transition-delay: 0.4s;">
+                    <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+                    <a href="services.html" class="btn btn-outline" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(5px);">Explore Services</a>
+                </div>
+
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. QUICK ABOUT -->
+    <section class="quick-about section-padding">
+        <div class="container">
+            <div class="grid-3" style="grid-template-columns: 1fr 1fr; align-items: center; gap: 5rem;">
+                <div class="service-img-wrapper reveal-left">
+                    <img src="images/about/who-we-are.png" alt="Facility Excellence">
+                </div>
+                <div class="about-text reveal-right">
+                    <h5 style="color: var(--primary-color); text-transform: uppercase; margin-bottom: 1rem;">Who We Are</h5>
+                    <h2 style="margin-bottom: 1.5rem;">Managing Environments With Precision</h2>
+                    <p style="font-size: 1.2rem; line-height: 1.8; color: var(--secondary-color);">We provide reliable facility management services designed to ensure safety, cleanliness, and smooth operations. Our approach integrates technology with hospitality for world-class results.</p>
+                    <a href="about.html" class="btn btn-secondary" style="margin-top: 1.5rem;">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. WHY CHOOSE US -->
+    <section class="why-choose section-padding" style="background: var(--bg-light);">
+        <div class="container">
+            <div class="section-title reveal-fade">
+                <h2>Why Choose Us</h2>
+                <div class="accent-bar"></div>
+            </div>
+            <div class="grid-3" style="gap: 2.5rem;">
+                <div class="card-premium reveal-fade interactive-card" data-topic="team" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div class="card-img-top" style="background-image: url('images/about/about-company.png'); height: 160px; background-size: cover; background-position: center; position: relative;">
+                        <i class="fas fa-user-tie" style="position: absolute; bottom: -20px; right: 20px; background: var(--primary-color); color: white; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-soft);"></i>
+                    </div>
+                    <div style="padding: 2.5rem 2rem 2rem;">
+                        <h4 style="margin-bottom: 0.5rem; color: var(--heading-color);">Experienced Team</h4>
+                        <p style="font-size: 0.9rem; color: var(--secondary-color); line-height: 1.6;">Our industry veterans ensure peak operational performance and elite standards.</p>
+                        <span style="font-size: 0.8rem; color: var(--primary-color); font-weight: 600; margin-top: 1rem; display: block;">Learn more →</span>
+                    </div>
+                </div>
+                <div class="card-premium reveal-fade interactive-card" data-topic="support" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div class="card-img-top" style="background-image: url('images/about/who-we-are.png'); height: 160px; background-size: cover; background-position: center; position: relative;">
+                        <i class="fas fa-clock" style="position: absolute; bottom: -20px; right: 20px; background: var(--primary-color); color: white; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-soft);"></i>
+                    </div>
+                    <div style="padding: 2.5rem 2rem 2rem;">
+                        <h4 style="margin-bottom: 0.5rem; color: var(--heading-color);">24/7 Support</h4>
+                        <p style="font-size: 0.9rem; color: var(--secondary-color); line-height: 1.6;">A dedicated rapid-response command center available every second of the year.</p>
+                        <span style="font-size: 0.8rem; color: var(--primary-color); font-weight: 600; margin-top: 1rem; display: block;">Learn more →</span>
+                    </div>
+                </div>
+                <div class="card-premium reveal-fade interactive-card" data-topic="equipment" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div class="card-img-top" style="background-image: url('images/services/maintenance.png'); height: 160px; background-size: cover; background-position: center; position: relative;">
+                        <i class="fas fa-tools" style="position: absolute; bottom: -20px; right: 20px; background: var(--primary-color); color: white; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-soft);"></i>
+                    </div>
+                    <div style="padding: 2.5rem 2rem 2rem;">
+                        <h4 style="margin-bottom: 0.5rem; color: var(--heading-color);">Modern Equipment</h4>
+                        <p style="font-size: 0.9rem; color: var(--secondary-color); line-height: 1.6;">Leveraging AI and IoT technology for precision-led facility maintenance.</p>
+                        <span style="font-size: 0.8rem; color: var(--primary-color); font-weight: 600; margin-top: 1rem; display: block;">Learn more →</span>
+                    </div>
+                </div>
+                <div class="card-premium reveal-fade interactive-card" data-topic="cost" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div class="card-img-top" style="background-image: url('images/services/waste-management.png'); height: 160px; background-size: cover; background-position: center; position: relative;">
+                        <i class="fas fa-hand-holding-dollar" style="position: absolute; bottom: -20px; right: 20px; background: var(--primary-color); color: white; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-soft);"></i>
+                    </div>
+                    <div style="padding: 2.5rem 2rem 2rem;">
+                        <h4 style="margin-bottom: 0.5rem; color: var(--heading-color);">Cost-effective</h4>
+                        <p style="font-size: 0.9rem; color: var(--secondary-color); line-height: 1.6;">Optimized resource allocation providing premium service at market rates.</p>
+                        <span style="font-size: 0.8rem; color: var(--primary-color); font-weight: 600; margin-top: 1rem; display: block;">Learn more →</span>
+                    </div>
+                </div>
+                <div class="card-premium reveal-fade interactive-card" data-topic="safety" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                    <div class="card-img-top" style="background-image: url('images/services/security.png'); height: 160px; background-size: cover; background-position: center; position: relative;">
+                        <i class="fas fa-shield-alt" style="position: absolute; bottom: -20px; right: 20px; background: var(--primary-color); color: white; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-soft);"></i>
+                    </div>
+                    <div style="padding: 2.5rem 2rem 2rem;">
+                        <h4 style="margin-bottom: 0.5rem; color: var(--heading-color);">Safety Focus</h4>
+                        <p style="font-size: 0.9rem; color: var(--secondary-color); line-height: 1.6;">Uncompromising safety protocols ensuring a secure workplace for all.</p>
+                        <span style="font-size: 0.8rem; color: var(--primary-color); font-weight: 600; margin-top: 1rem; display: block;">Learn more →</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details Modal -->
+    <div id="detailsModal" class="modal-overlay">
+        <div class="modal-content glass">
+            <span class="close-modal">&times;</span>
+            <div id="modalBody">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. SERVICES PREVIEW -->
+    <section class="services-preview section-padding">
+        <div class="container">
+            <div class="section-title reveal-fade">
+                <h2>Our Core Expertise</h2>
+                <div class="accent-bar"></div>
+            </div>
+            <div class="grid-3">
+                <div class="card-premium reveal-fade" style="padding: 0; overflow: hidden;">
+                    <img src="images/services/housekeeping.png" alt="Housekeeping" style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 2rem;">
+                        <h4 style="margin-bottom: 0.5rem;">Housekeeping</h4>
+                        <p style="font-size: 0.95rem; color: var(--secondary-color);">Eco-friendly hospitality cleaning standards.</p>
+                    </div>
+                </div>
+                <div class="card-premium reveal-fade" style="padding: 0; overflow: hidden;">
+                    <img src="images/services/security.png" alt="Security" style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 2rem;">
+                        <h4 style="margin-bottom: 0.5rem;">Security</h4>
+                        <p style="font-size: 0.95rem; color: var(--secondary-color);">Manned guarding & digital surveillance.</p>
+                    </div>
+                </div>
+                <div class="card-premium reveal-fade" style="padding: 0; overflow: hidden;">
+                    <img src="images/services/maintenance.png" alt="Technical" style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 2rem;">
+                        <h4 style="margin-bottom: 0.5rem;">Technical</h4>
+                        <p style="font-size: 0.95rem; color: var(--secondary-color);">Comprehensive engineering upkeep.</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 4rem;">
+                <a href="services.html" class="btn btn-secondary">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. INDUSTRIES -->
+    <section class="industries section-padding" style="background: var(--bg-light);">
+        <div class="container">
+            <div class="section-title reveal-fade">
+                <h2>Industries We Serve</h2>
+                <p style="margin-top: 1rem;">We cater to a wide spectrum of modern operational sectors</p>
+            </div>
+            <div class="grid-3" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                <div class="card-premium reveal-fade industry-tag">
+                    <i class="fas fa-hospital-user"></i>
+                    <span>Hospitals</span>
+                </div>
+                <div class="card-premium reveal-fade industry-tag">
+                    <i class="fas fa-building"></i>
+                    <span>Offices</span>
+                </div>
+                <div class="card-premium reveal-fade industry-tag">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Schools</span>
+                </div>
+                <div class="card-premium reveal-fade industry-tag">
+                    <i class="fas fa-house-chimney-window"></i>
+                    <span>Apartments</span>
+                </div>
+                <div class="card-premium reveal-fade industry-tag">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>IT Parks</span>
+                </div>
+                <div class="card-premium reveal-fade industry-tag">
+                    <i class="fas fa-industry"></i>
+                    <span>Industries</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. PREMIUM LIGHT CTA SECTION -->
+    <section class="cta-banner-new" id="contact">
+        <div class="cta-bg-image"></div>
+        <div class="cta-overlay-light"></div>
+        <div class="container container-relative">
+            <div class="cta-content-new reveal-up">
+                <span class="cta-tag">Partner with us</span>
+                <h2>Looking for Reliable <br><span class="text-accent">Facility Management?</span></h2>
+                <p>Join hundreds of leading businesses that trust V-WORKS for their operational excellence and seamless facility maintenance across Bangalore.</p>
+                
+                <div class="cta-flex">
+                    <a href="contact.html" class="btn btn-primary btn-cta-main">Contact Us Now</a>
+                    <div class="cta-trust">
+                        <div class="trust-pill">
+                            <i class="fas fa-shield-alt"></i> 100% Certified
+                        </div>
+                        <div class="trust-pill">
+                            <i class="fas fa-clock"></i> 24/7 Support
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="margin-bottom: 1.5rem; display: inline-block;">
+                        <img src="images/icons/logo-official.jpeg" alt="V-WORKS Logo" style="height: 50px; width: auto; mix-blend-mode: screen;">
+                    </a>
+                    <p class="footer-desc">Premium facility management solutions designed for modern Bangalore and beyond.</p>
+                    <div class="social-bar">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#housekeeping">Housekeeping</a></li>
+                        <li><a href="services.html#security">Security</a></li>
+                        <li><a href="services.html#maintenance">Technical</a></li>
+                        <li><a href="services.html#pest-control">Pest Control</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Contact Us</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> Vidyaranyapura, Bangalore</li>
+                        <li><i class="fas fa-phone-alt"></i> +91 99026 93570</li>
+                        <li><i class="fas fa-envelope"></i> info@v-works.in</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 V-WORKS Facility Management. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
